@@ -61,7 +61,16 @@ thì các bước cần làm là?
 # II.Thực hành áp dụng: APP MONITOR + ALERT DATA REALTIME
    Sử dụng docker compose có nhiều serivce và các thành phần cần thiết để tạo thành ứng dụng:
 ## nodered liên tục lấy dữ liệu từ nguồn nào đó (chứng khoán, thời tiết, giá vàng,...)nguồn thực tế, số liệu luôn động sau thời gian ngắn
-     + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed575981-7217-42ef-ad96-97285e31a5ee" />
+
+<img width="1920" height="1074" alt="image" src="https://github.com/user-attachments/assets/f8f7245e-d843-4780-9358-220be89bd857" />
+
+<img width="1920" height="827" alt="image" src="https://github.com/user-attachments/assets/be13efaf-4987-4978-827c-55a0098ac1e8" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/70fede0e-9166-49c0-8341-3b9c500fe4bf" />
+
+  + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
        lưu lịch sử vào influxdb
      + sử dụng grafana để trực quan hoá dữ liệu: vẽ biểu đồ
      + sử dụng nginx để làm webserver
