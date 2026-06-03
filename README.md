@@ -58,10 +58,9 @@ thì các bước cần làm là?
 
 5.Chạy docker compose up -d để khởi động hệ thống.
  
- # Thực hành áp dụng: APP MONITOR + ALERT DATA REALTIME
-   
+# Thực hành áp dụng: APP MONITOR + ALERT DATA REALTIME
    Sử dụng docker compose có nhiều serivce và các thành phần cần thiết để tạo thành ứng dụng:
-   ## nodered liên tục lấy dữ liệu từ nguồn nào đó (chứng khoán, thời tiết, giá vàng,...)nguồn thực tế, số liệu luôn động sau thời gian ngắn
+## nodered liên tục lấy dữ liệu từ nguồn nào đó (chứng khoán, thời tiết, giá vàng,...)nguồn thực tế, số liệu luôn động sau thời gian ngắn
      + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
        lưu lịch sử vào influxdb
      + sử dụng grafana để trực quan hoá dữ liệu: vẽ biểu đồ
