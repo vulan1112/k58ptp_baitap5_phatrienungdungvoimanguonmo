@@ -14,7 +14,7 @@ bt3: wordpress (php) + mariadb + phpmyadmin (chỉ để xem các tables)
 bt4: wordpress + n8n + bot telegram+gemini: auto đăng bài bằng cách chát
 
 bt5:
-# lý thuyết:
+# I.lý thuyết:
 ## 1.Docker là gì?
 
 + Docker là một nền tảng mã nguồn mở cho phép đóng gói ứng dụng và tất cả các thành phần phụ thuộc (thư viện, file cấu hình, môi trường hệ thống…) vào trong một đơn vị gọi là container. Nhờ container, ứng dụng có thể chạy giống hệt nhau trên mọi máy tính, từ laptop cá nhân đến server thật, mà không lo gặp lỗi “chạy trên máy em thì được, trên máy thầy thì không hay chạy máy các bạn cũng chạy được như máy em nếu có môi trường giống máy em”.
@@ -58,7 +58,7 @@ thì các bước cần làm là?
 
 5.Chạy docker compose up -d để khởi động hệ thống.
  
-# Thực hành áp dụng: APP MONITOR + ALERT DATA REALTIME
+# II.Thực hành áp dụng: APP MONITOR + ALERT DATA REALTIME
    Sử dụng docker compose có nhiều serivce và các thành phần cần thiết để tạo thành ứng dụng:
 ## nodered liên tục lấy dữ liệu từ nguồn nào đó (chứng khoán, thời tiết, giá vàng,...)nguồn thực tế, số liệu luôn động sau thời gian ngắn
      + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
