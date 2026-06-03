@@ -70,6 +70,8 @@ thì các bước cần làm là?
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/70fede0e-9166-49c0-8341-3b9c500fe4bf" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7bf27201-e656-4a8e-ba76-09ede6e006f6" />
+
   + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
        lưu lịch sử vào influxdb
      + sử dụng grafana để trực quan hoá dữ liệu: vẽ biểu đồ
