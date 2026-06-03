@@ -84,6 +84,12 @@ cấu hình nginx và ganafana
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a57f4d0-94f0-4a5b-bc14-1583f34f6a56" />
 
+<img width="1873" height="998" alt="image" src="https://github.com/user-attachments/assets/07bda17c-2308-4c2d-95a7-f2c5ca5e6fce" />
+
+cấu hình node
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5cb22a6f-e8fc-4610-a1b7-c3cf625f47d1" />
+
   + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
        lưu lịch sử vào influxdb
      + sử dụng grafana để trực quan hoá dữ liệu: vẽ biểu đồ
