@@ -72,6 +72,18 @@ thì các bước cần làm là?
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7bf27201-e656-4a8e-ba76-09ede6e006f6" />
 
+cấu hình nginx và ganafana
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c68893a3-ab99-4a81-b631-3ef1623ddbc0" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/465c99dd-c214-41ed-85f3-23d990d79c22" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07e61867-e076-46d4-b8a3-8c6bb2d59edf" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b280d6d0-073f-4a9f-af03-0a5b65f3ae62" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a57f4d0-94f0-4a5b-bc14-1583f34f6a56" />
+
   + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
        lưu lịch sử vào influxdb
      + sử dụng grafana để trực quan hoá dữ liệu: vẽ biểu đồ
