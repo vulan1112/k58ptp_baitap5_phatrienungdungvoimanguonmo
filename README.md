@@ -82,8 +82,6 @@ cấu hình nginx và ganafana
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b280d6d0-073f-4a9f-af03-0a5b65f3ae62" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7a57f4d0-94f0-4a5b-bc14-1583f34f6a56" />
-
 <img width="1873" height="998" alt="image" src="https://github.com/user-attachments/assets/07bda17c-2308-4c2d-95a7-f2c5ca5e6fce" />
 
 <img width="1920" height="1075" alt="image" src="https://github.com/user-attachments/assets/beec3bd6-8e6d-40f6-9dd3-203faa0cff55" />
