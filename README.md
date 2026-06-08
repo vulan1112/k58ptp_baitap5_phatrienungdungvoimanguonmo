@@ -86,14 +86,23 @@ cấu hình nginx và ganafana
 
 <img width="1873" height="998" alt="image" src="https://github.com/user-attachments/assets/07bda17c-2308-4c2d-95a7-f2c5ca5e6fce" />
 
+<img width="1920" height="1075" alt="image" src="https://github.com/user-attachments/assets/beec3bd6-8e6d-40f6-9dd3-203faa0cff55" />
+
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/10ce3fd5-6f00-42b3-aad4-7db3d161e2c5" />
+
 cấu hình node
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5cb22a6f-e8fc-4610-a1b7-c3cf625f47d1" />
 
+
+
   + nodered lưu trữ dữ liệu vào 2 database: mariadb để lưu giá trị tức thời
        lưu lịch sử vào influxdb
      + sử dụng grafana để trực quan hoá dữ liệu: vẽ biểu đồ
-     + sử dụng nginx để làm webserver
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c50d94b-c976-4752-a197-b79c9904f72b" />
+
+   + sử dụng nginx để làm webserver
        chạy 1 trang web html+js+css làm front-end
        js: lấy dữ liệu tức thời trong mariadb qua (ajax | socket) 
            gọi api (api tự build bằng Flask giống bt1)
@@ -101,17 +110,46 @@ cấu hình node
            hiển thị lên web, auto hiển thị số mới khi thay đổi
        sử dụng iframe để gọi grafana
        hiển thị biểu đồ dữ liệu lịch sử của thông số đã lưu
-     + QUAN SÁT DỮ LIỆU LỊCH SỬ => GIÁ TRỊ BẤT THƯỜNG
-       (VD MIỀN A..B: OK, DƯỚI A: ALERT LOW, TRÊN B: ALERT HIGH)
-     + nodered: kết hợp bot Telegram
-       khi dữ liệu not OK, thì gửi tin nhắn từ bot => group trên telegram
-       group đã add bot vào: (nhóm đã có 2 người), add thêm 1875746636 thành 3 người
-       mỗi khi bot gửi dữ liệu vào nhóm: mọi member of group đều nhận đc
-       nội dung alert: tường minh, có value gây alert
 
-     xuất tất cả các container ra file nén.
-     xoá mọi container đang chạy
-     load lại các container  từ file nén để khôi phục các container đã xoá
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/46423133-e3b3-4fe7-b724-d4f407642aa4" />
+
+<img width="1905" height="565" alt="image" src="https://github.com/user-attachments/assets/5a3a3287-8cc4-4c6b-8baf-0afc594f0b1f" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de6ef719-0547-4580-b391-6c5c35af6061" />
+
++ QUAN SÁT DỮ LIỆU LỊCH SỬ => GIÁ TRỊ BẤT THƯỜNG
+       (VD MIỀN A..B: OK, DƯỚI A: ALERT LOW, TRÊN B: ALERT HIGH)
++ nodered: kết hợp bot Telegram
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b1cb9d3-8796-4fb7-8971-965106ab0f8e" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93fff40f-b9fd-49cc-8fd8-96b68700ea30" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b48ece6f-7661-417d-9b4f-b576ced7f737" />
+
+khi dữ liệu not OK, thì gửi tin nhắn từ bot => group trên telegram
+
+<img width="1184" height="2560" alt="image" src="https://github.com/user-attachments/assets/8e465978-def1-4bf4-9b76-08ade6a52cf8" />
+
+<img width="1184" height="2560" alt="image" src="https://github.com/user-attachments/assets/004135d3-ef90-4dad-86ba-84f15cc7f429" />
+
+group đã add bot vào: (nhóm đã có 2 người), add thêm 1875746636 thành 3 người
+mỗi khi bot gửi dữ liệu vào nhóm: mọi member of group đều nhận đc
+
+<img width="1920" height="1033" alt="image" src="https://github.com/user-attachments/assets/a2afeae8-0007-4125-8e46-80ecb95f9185" />
+
+<img width="1184" height="2560" alt="image" src="https://github.com/user-attachments/assets/8a0caeda-bde4-45a3-b09f-5c7ab4fc335f" />
+
+nội dung alert: tường minh, có value gây alert
+
+<img width="1184" height="2560" alt="image" src="https://github.com/user-attachments/assets/71beaec6-d2f0-441c-9f57-ea840fea0348" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/35c520fa-c532-4102-800f-db95bcf16236" />
+
+xuất tất cả các container ra file nén.
+
+xoá mọi container đang chạy
+load lại các container  từ file nén để khôi phục các container đã xoá
 =========
 quá trình làm: chụp ảnh lại, mô tả cho ảnh
 
