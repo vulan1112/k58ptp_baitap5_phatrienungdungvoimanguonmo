@@ -147,9 +147,36 @@ nội dung alert: tường minh, có value gây alert
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/35c520fa-c532-4102-800f-db95bcf16236" />
 
 xuất tất cả các container ra file nén.
++ Xuất toàn bộ image Docker ra file .tar
 
-xoá mọi container đang chạy
-load lại các container  từ file nén để khôi phục các container đã xoá
+<img width="1422" height="285" alt="image" src="https://github.com/user-attachments/assets/df0acfde-09b0-496d-8fd5-619af77e6b36" />
+
++ Nén toàn bộ project
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/367e5fc4-3302-4b2e-a7a7-21c445882161" />
+
++ Xóa toàn bộ containel (lệnh:docker compose down)
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3a5765b2-f618-4485-a30f-8af91bf990bc" />
+
+<img width="1852" height="752" alt="image" src="https://github.com/user-attachments/assets/1b6a587c-5cdb-450f-a430-5b5cb1e6edb7" />
+
++ Xóa image Docker
+
+<img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/c8dd29c5-3cb8-4fcc-8f1f-887cac791834" />
+
+<img width="1920" height="802" alt="image" src="https://github.com/user-attachments/assets/02b62161-3b01-4c9f-b57c-547ea8f0a6c0" />
+
+<img width="1920" height="551" alt="image" src="https://github.com/user-attachments/assets/a8b0424c-302b-4903-af7c-b76c121477a4" />
+
+Khôi phục hệ thống: (load lại các container  từ file nén để khôi phục các container đã xoá)
+
+<img width="1920" height="931" alt="image" src="https://github.com/user-attachments/assets/e1cfee19-20c1-46dc-be54-ab6db1f4f410" />
+
+Chạy lại websever
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/469c7edf-54d1-4da6-b596-a791a138e8da" />
+
 =========
 quá trình làm: chụp ảnh lại, mô tả cho ảnh
 
