@@ -121,10 +121,6 @@ cấu hình node
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9b1cb9d3-8796-4fb7-8971-965106ab0f8e" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93fff40f-b9fd-49cc-8fd8-96b68700ea30" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b48ece6f-7661-417d-9b4f-b576ced7f737" />
-
 khi dữ liệu not OK, thì gửi tin nhắn từ bot => group trên telegram
 
 <img width="1184" height="2560" alt="image" src="https://github.com/user-attachments/assets/8e465978-def1-4bf4-9b76-08ade6a52cf8" />
